@@ -2,5 +2,5 @@
 * Sebastian Gonzales Abad
 * Jorge Adrian Sanzhez
 * Hugo 
-* Sebastian Sasaki 
+* Sebastian Sasaki Baba
 * Jhonel Rios Jaimes
