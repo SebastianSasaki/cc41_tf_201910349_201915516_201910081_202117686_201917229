@@ -1,3 +1,5 @@
+#Informe General
+
 En este proyecto, nuestro equipo debe aplicar el ya conocido problema de enrutamiento de vehículos o VRP. Este se balla en hallar un conjunto de rutas optimas de entrega, teniendo en cuenta un punto de reparto, la distancia entre cada punto y un numero especifico de vehículos. El algoritmo VRP, esta altamente relacionado con el algoritmo TSP (problema del agente viajero), ya que este se basa también en la búsqueda de una ruta optima con la diferencia que el algoritmo VRP cuenta con muchos más destinos a los cuales llegar. Teniendo esto en cuenta, nuestro equipo deberá aplicar este algoritmo para un caso real. Donde contaremos con un mapa distribuido rectangularmente que contará con: 
 •	Entre 50 y 100 puntos de distribución (almacenes).
 •	Entre 2500 y 5000 puntos de entrega.
