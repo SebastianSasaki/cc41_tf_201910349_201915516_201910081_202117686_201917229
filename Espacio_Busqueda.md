@@ -11,4 +11,4 @@ Soluciones:
 - Existen algoritmos que nos permiten resolver de manera eficaz esa problemática, tales como BFS, DFS, Dijkstra, entre otros.
 
 
-https://cdn.discordapp.com/attachments/847950429839949884/892793809119879189/vrpgs_solution.png
+![img_VRP](https://cdn.discordapp.com/attachments/847950429839949884/892793809119879189/vrpgs_solution.png)
