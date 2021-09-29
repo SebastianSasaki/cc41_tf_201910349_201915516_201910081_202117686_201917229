@@ -6,6 +6,7 @@ lejos.
 
 Reglas:
 - Un punto de distribución será la partida y la llegada, pero durante su recorrido no puede pasar más de una vez por un mismo punto.
+
 Soluciones:
 - Existen algoritmos que nos permiten resolver de manera eficaz esa problemática, tales como BFS, DFS, Dijkstra, entre otros.
 
