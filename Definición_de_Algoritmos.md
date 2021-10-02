@@ -26,6 +26,7 @@ Para poder resolver este problema, el algoritmo que yo usaría sería el algorit
 
                                      # Analisis Asintotico
 def dijkstra(G, s):                  # T(n) =
+  
   n = len(G)                         # 2
   visited = [False]*n                # 1 + n
   path = [None]*n                    # 1 + n
