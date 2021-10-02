@@ -38,8 +38,7 @@ def dijkstra(G, s):                  # T(n) =
   
   queue = [(0, s)]                   # 1
   
-  while queue                        # 1  
-    
+  while queue:                       # 1  
     g_u, u = hq.heappop(queue)       #   2
     
     if not visite[u]:                #   2 +
