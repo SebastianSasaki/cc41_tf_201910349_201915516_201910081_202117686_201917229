@@ -23,6 +23,7 @@ Técnica principal | Algoritmo Dijkstra
 # Algoritmo Dijkstra
 
 Para poder resolver este problema, el algoritmo que yo usaría sería el algoritmo de Dijkstra o también conocido algoritmo UCS. Que tiene esta forma estándar(python):
+
 -------------------                  # Analisis Asintotico
 def dijkstra(G, s):                  # T(n) =
   n = len(G)                         # 2
