@@ -27,4 +27,4 @@ Para poder resolver este problema, el algoritmo que yo usaría sería el algorit
 Este algoritmo sería la solución ya que permite recorrer un grafo siguiendo la ruta más económica posible, esto significa que ve el peso de la arista que une dos nodos y recorre el que menos peso tenga. Pero este algoritmo necesita algunos cambios para que pueda resolver nuestro problema al 100%. El algoritmo debe reconocer que no puede pasar por el mismo punto de entrega dos veces, esto se puede hacer con un condicional "if" que indique que, si un punto ya ha sido visitado, no lo puede visitar otra vez. También se agregará variables extras para recopilar información sobre el recorrido. Cantidad recorrida, tiempo demorado, etc.
 En el análisis asintótico, la complejidad del algoritmo dijkstra es de O(n2), o "n elevado al cuadrado".
 
-![img_VRP](https://www.incanatoit.com/2014/06/caminos-minimos-algoritmo-dijkstra-java.html)
+![img_VRP](https://4.bp.blogspot.com/-pRAitO3ivd4/U58qJJh_4JI/AAAAAAAAAWY/Wfxr7s-_u64/s1600/Incanato+dijsktra+recorrido.JPG)
