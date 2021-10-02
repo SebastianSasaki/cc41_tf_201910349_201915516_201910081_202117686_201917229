@@ -24,24 +24,38 @@ Técnica principal | Algoritmo Dijkstra
 
 Para poder resolver este problema, el algoritmo que yo usaría sería el algoritmo de Dijkstra o también conocido algoritmo UCS. Que tiene esta forma estándar(python):
 
-                                     # Analisis Asintotico
 def dijkstra(G, s):                  # T(n) =
   
   n = len(G)                         # 2
+  
   visited = [False]*n                # 1 + n
+  
   path = [None]*n                    # 1 + n
+  
   cost = [math.inf]*n                # 1 + n
+  
   cost[s] = 0                        # 2
+  
   queue = [(0, s)]                   # 1
+  
   while queue:                       # 1  
+    
     g_u, u = hq.heappop(queue)       #   2
+    
     if not visite[u]:                #   2 +
+      
       visited[u] = True              #     2 
+      
       for v, w in G[u]:              #     n *
+        
         f = g_u + w                  #       2
+        
         if f < cost[v]:              #       1 + 
+          
           cost[v] = f                #         2
+          
           path[v] = u                #         2
+          
           hq.heappush(queue, (f, v)) #         1
   return path, cost                  
 
