@@ -40,15 +40,10 @@ def dijkstra(G, s):                  # T(n) =
   
   while queue:                       # 1  
     g_u, u = hq.heappop(queue)       #   2
-    
     if not visite[u]:                #   2 +
-      
       visited[u] = True              #     2 
-      
       for v, w in G[u]:              #     n *
-        
         f = g_u + w                  #       2
-        
         if f < cost[v]:              #       1 + 
           
           cost[v] = f                #         2
