@@ -12,3 +12,6 @@
 4) Redacción de como se hallo el espacio de busqueda del problema
 5) Informe
 6) Definir algoritmos que puedan resolver el problema y analizarlos
+
+#Link Video sobre actividades realizadas : 
+https://youtu.be/9mPT8kdgiC0
