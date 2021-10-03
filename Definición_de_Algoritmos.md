@@ -47,6 +47,18 @@ Técnica principal | Algoritmo Floyd-Warshall
 
 # Algoritmo de Floyd-Warshall
 
+El agoritmo de FLoyd-Warshall, descrito en 1959 por Bernard Roy, es una opción muy utilizada cuando se desea determinar el camino mínimo entre todos los los pares de nodos de un grafo, mediante comparaciones entre los posibles caminos logra mejorar gradualmente la estimación hasta llegar a la más óptima. La adaptación de este algoritmo permitiría la resolución del problema de enrutamineto de vehículos. 
 
+Sea un grafo G con conjunto de vértices V, numerados de 1 a N. Sea además una función **caminoMinimo(i,j,k)** que devuelve el camino mínimo de i a j usando únicamente los vértices de 1 a k como puntos intermedios en el camino. Ahora, dada esta función, nuestro objetivo es encontrar el camino mínimo desde cada i a cada j usando únicamente los vértices de 1 hasta k+1.
 
+Hay dos candidatos para este camino: un camino mínimo, que utiliza únicamente los vértices del conjunto (1...k); o bien existe un camino que va desde i hasta k+1, y de k+1 hasta j, que es mejor. Sabemos que el camino óptimo de i a j que únicamente utiliza los vértices de 1 hasta k está definido por **caminoMinimo(i,j,k)**, y está claro que si hubiera un camino mejor de i a k+1 a j, la longitud de este camino sería la concatenación del camino mínimo de i a k+1 (utilizando vértices de  (1...k) ) y el camino mínimo de k+1 a j (que también utiliza los vértices en  (1...k) ).
+
+La fórmula del agoritmo es:
+
+**caminoMinimo(i,j,k) = min(caminoMinimo(i,j,k-1), caminoMinimo(i,k,k-1) + caminoMinimo(k,j,k-1))**
+**caminoMinimo(i,j,0) = pesoArista(i,j)**
+
+Aquí evidenciamos que se puede implementar de forma recursiva, pero al reconocer que esto tiene un límite, en grafos más densos sería más eficiente trabajar con pilas (stacks).
+
+La notación asintótica de este algoritmo se estima ser: **O(v3)**
 ![img_VRP](http://2.bp.blogspot.com/-zNImYywGBWw/VkVDmgna0rI/AAAAAAAAAMw/laDiXGr2HUI/s1600/Sin%2Bt%25C3%25ADtulo.png)
