@@ -28,3 +28,12 @@ Este algoritmo sería la solución ya que permite recorrer un grafo siguiendo la
 En el análisis asintótico, la complejidad del algoritmo dijkstra es de O(n2), o "n elevado al cuadrado".
 
 ![img_VRP](https://4.bp.blogspot.com/-pRAitO3ivd4/U58qJJh_4JI/AAAAAAAAAWY/Wfxr7s-_u64/s1600/Incanato+dijsktra+recorrido.JPG)
+
+# Algoritmo 3
+
+Topic | Desc
+-|-
+Autor | Sebastián Gonzales
+Técnica principal | Algoritmo Johnson
+
+# Algoritmo Johnson
