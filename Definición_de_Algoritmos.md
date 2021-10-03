@@ -97,4 +97,4 @@ El algoritmo de Prim se encarga de encontrar el camino mínimo dentro de un graf
 
 Al tratarse de dos ciclos for anidados, la complejidad de este algortimo es de O(n^2).
 
-![img_VRP](https://cmop17.files.wordpress.com/2009/08/prim.png?w=600)
+![img_Prim](https://cmop17.files.wordpress.com/2009/08/prim.png?w=600)
