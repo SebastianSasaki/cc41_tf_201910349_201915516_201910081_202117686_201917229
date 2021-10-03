@@ -75,3 +75,26 @@ Aquí evidenciamos que se puede implementar de forma recursiva, pero al reconoce
 
 La notación asintótica de este algoritmo se estima ser: **O(v3)**
 ![img_VRP](http://2.bp.blogspot.com/-zNImYywGBWw/VkVDmgna0rI/AAAAAAAAAMw/laDiXGr2HUI/s1600/Sin%2Bt%25C3%25ADtulo.png)
+
+# Algoritmo 5
+
+Topic | Desc
+-|-
+Autor | Jhonel Rios
+Técnica principal | Algoritmo de Prim
+
+# Algoritmo de Prim
+
+El algoritmo de Prim se encarga de encontrar el camino mínimo dentro de un grafo conexo y no dirigido. El resultado del algoritmo es un árbol de expansión mínima; es decir, un árbol formado por todos los vértices de dicho gráfo.
+
+**Funcionamiento**
+
+1. Se escoge cualquier vértice del grafo. Este será el vértice de partida del árbol.
+2. Se escoge la arista de menor tamaño que conecta al vértice actual con el siguiente y lo agregamos al árbol.
+3. Se repite el paso 2 mientras que existan vértices que no estén visitados y asegurandose que no formen ningún ciclo.
+
+**Complejidad**
+
+Al tratarse de dos ciclos for anidados, la complejidad de este algortimo es de O(n^2).
+
+![img_VRP](https://cmop17.files.wordpress.com/2009/08/prim.png?w=600)
