@@ -37,3 +37,16 @@ Autor | Sebastián Gonzales
 Técnica principal | Algoritmo Johnson
 
 # Algoritmo Johnson
+
+# Algoritmo 4
+
+Topic | Desc
+-|-
+Autor | Jorge Sanchez Vallejos
+Técnica principal | Algoritmo Floyd-Warshall
+
+# Algoritmo de Floyd-Warshall
+
+
+
+![img_VRP](http://2.bp.blogspot.com/-zNImYywGBWw/VkVDmgna0rI/AAAAAAAAAMw/laDiXGr2HUI/s1600/Sin%2Bt%25C3%25ADtulo.png)
