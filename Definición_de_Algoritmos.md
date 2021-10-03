@@ -38,6 +38,18 @@ Técnica principal | Algoritmo Johnson
 
 # Algoritmo Johnson
 
+El algoritmo de Johnson es una forma de encontrar el camino más corto entre todos los pares de vértices de un grafo dirigido disperso. Permite que las aristas tengan pesos negativos, si bien no permite ciclos de peso negativo. Funciona utilizando el algoritmo de Bellman-Ford para hacer una transformación en el grafo inicial que elimina todas las aristas de peso negativo, permitiendo por tanto usar el algoritmo de Dijkstra en el grafo transformado. 
+
+El algoritmo de Johnson consiste en los siguientes pasos:
+
+1) Primero se añade un nuevo nodo q al grafo, conectado a cada uno de los nodos del grafo por una arista de peso cero.
+2) En segundo lugar, se utiliza el algoritmo de Bellman-Ford, empezando por el nuevo vértice q, para determinara para cada vértice v el peso mínimo h(v) del camino de q a v. Si en este paso se detecta un ciclo negativo, el algoritmo concluye.
+3) Seguidamente, a las aristas del grafo original se les cambia el peso usando los valores calculados por el algoritmo de Bellman-Ford: una arista de u a v con tamaño w(u, v), da el nuevo tamaño w(u, v) + h(u) – h(v)
+4) Por último, para cada nodo s se usa el algoritmo de Dijkstra para determinar el camino más corto entre s y los otros nodos, usando el grafo con pesos modificados.
+
+
+
+
 # Algoritmo 4
 
 Topic | Desc
