@@ -55,8 +55,9 @@ Hay dos candidatos para este camino: un camino mínimo, que utiliza únicamente 
 
 La fórmula del agoritmo es:
 
-**caminoMinimo(i,j,k) = min(caminoMinimo(i,j,k-1), caminoMinimo(i,k,k-1) + caminoMinimo(k,j,k-1))**
-**caminoMinimo(i,j,0) = pesoArista(i,j)**
+>**caminoMinimo(i,j,k) = min(caminoMinimo(i,j,k-1), caminoMinimo(i,k,k-1) + caminoMinimo(k,j,k-1));**
+
+>**caminoMinimo(i,j,0) = pesoArista(i,j);**
 
 Aquí evidenciamos que se puede implementar de forma recursiva, pero al reconocer que esto tiene un límite, en grafos más densos sería más eficiente trabajar con pilas (stacks).
 
