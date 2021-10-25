@@ -1,1 +1,7 @@
+import pandas as pd #Leer CSV
 
+coords_str = pd.read_csv("almacenes.csv")   #AQUI SE LEE EL CSV DE LOS ALMACENES
+coords_str #SE LOS GUARDA EN LA VARIABLE
+
+coords_dp = pd.read_csv("puntos_entrega.csv")   #AQUI SE LEE EL CSV DE LOS PUNTOS DE ENTREGA
+coords_dp #SE LOS GUARDA EN LA VARIABLE
