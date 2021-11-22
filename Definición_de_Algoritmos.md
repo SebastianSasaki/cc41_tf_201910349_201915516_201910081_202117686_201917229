@@ -32,19 +32,19 @@ En el análisis asintótico, la complejidad del algoritmo dijkstra es de O(n2), 
 Topic | Desc
 -|-
 Autor | Sebastián Gonzales
-Técnica principal | Algoritmo Johnson
+Técnica principal | Algoritmo BFS
 
-# Algoritmo Johnson
+# Algoritmo BFS
 
-El algoritmo de Johnson es una forma de encontrar el camino más corto entre todos los pares de vértices de un grafo dirigido disperso. Permite que las aristas tengan pesos negativos, si bien no permite ciclos de peso negativo. Funciona utilizando el algoritmo de Bellman-Ford para hacer una transformación en el grafo inicial que elimina todas las aristas de peso negativo, permitiendo por tanto usar el algoritmo de Dijkstra en el grafo transformado. 
+Es un algoritmo de búsqueda no informada utilizado para recorrer o buscar elementos en un grafo (usado frecuentemente sobre árboles). Intuitivamente, se comienza en la raíz (eligiendo algún nodo como elemento raíz en el caso de un grafo) y se exploran todos los vecinos de este nodo. A continuación para cada uno de los vecinos se exploran sus respectivos vecinos adyacentes, y así hasta que se recorra todo el árbol.
 
-El algoritmo de Johnson consiste en los siguientes pasos:
+El algoritmo BFS consiste en los siguientes pasos:
 
-1) Primero se añade un nuevo nodo q al grafo, conectado a cada uno de los nodos del grafo por una arista de peso cero.
-2) En segundo lugar, se utiliza el algoritmo de Bellman-Ford, empezando por el nuevo vértice q, para determinara para cada vértice v el peso mínimo h(v) del camino de q a v. Si en este paso se detecta un ciclo negativo, el algoritmo concluye.
-3) Seguidamente, a las aristas del grafo original se les cambia el peso usando los valores calculados por el algoritmo de Bellman-Ford: una arista de u a v con tamaño w(u, v), da el nuevo tamaño w(u, v) + h(u) – h(v)
-4) Por último, para cada nodo s se usa el algoritmo de Dijkstra para determinar el camino más corto entre s y los otros nodos, usando el grafo con pesos modificados.
+1) Dado un vértice fuente s, BFS sistemáticamente explora los vértices de G para “descubrir” todos los vértices alcanzables desde s.
+2) Calcula la distancia (menor número de vértices) desde s a todos los vértices alcanzables.
+3) Después produce un árbol BF con raíz en s y que contiene a todos los vértices alcanzables.
 
+![image](https://user-images.githubusercontent.com/67605232/142799598-86886259-68f6-4355-a44d-79b98f41b3e3.png)
 
 
 
