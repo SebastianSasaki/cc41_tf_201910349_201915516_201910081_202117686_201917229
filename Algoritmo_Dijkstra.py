@@ -1,28 +1,3 @@
-def get_ls(st, dp, n):
-  ls = []
-  locals = []
-  for y in range(n): 
-    for x in range(n): 
-      tp = 0      
-      if [x,y] in st:
-        tp = 1        
-      if [x,y] in dp:
-        tp = 2
-      ls.append(adjacents(x, y, n))
-      locals.append(tp)
-  return ls, locals
-
-
-def toListWithCosts(G):
-  new_list = []
-  for c in G:
-    l = []
-    for n in c:
-      l.append((n,1))
-    new_list.append(l)
-  return new_list
-
-
 def dijkstra(G, L, s):
   n = len(G)
   visited = [False]*n
