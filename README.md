@@ -1,6 +1,6 @@
 # Integrantes  : 
 * Sebastian Gonzales Abad
-* Jorge Adrian Sanzhez
+* Jorge Adrian Sanchez
 * Hugo Quispe Chavez
 * Sebastian Sasaki Baba
 * Jhonel Rios Jaimes
