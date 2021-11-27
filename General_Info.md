@@ -26,3 +26,14 @@ BFS: BFS o búsqueda de anchura es un algoritmo de búsqueda utilizado para reco
 
 DFS: DFS o búsqueda de profundidad es un algoritmo de búsqueda utilizado para recorrer o buscar elementos de un grafo. Este algoritmo consiste en ir expandiendo todos los nodos que va localizando, cuando ya no encuentra mas nodos que visitar, regresa (utilizando Backtracking) y vuelve a realizar el algoritmo hasta haber visitado todos los nodos.
 
+Se adjuntara a este repositorio la resolución de todo los algoritmos y explicaciones anteriormente mencionadas. 
+
+##Conclusiones: 
+
+En este proyecto hemos podido observar la gran complejidad que puede poseer un problema tan cotidiano como el VRP. Y esto nos hace concientes de la dificil labor que tienen las ciencias compitacionales, y de la gran importancia que tiene el analisis de complejidad para cada algoritmo. Con este trabajo hemos podido aprender que: 
+
+*Podemos solucionar cualquier problema mediante un analisis detallado de algoritmos. Gracias a la sección final del trabajo, nos hemos percatado de la importancia que tiene realizar un correcto analisis del algoritmo. En base a todos los analisis, es muy facil determinar que algoritmo es el mas optimo segun los requerimientos. Además detallar cada segmento de codigo nos ayuda a poder modificar estos, para potenciarlos. 
+
+*Es necesario mantener un entorno de trabajo organizado, al ser 5 miembros es normal que cada uno tenga ideas diferente, por lo cual es necesario que se creen issues y estos sean asignados a los milestones para mantener un constante control sobre los cambios y modificaciones realizadas sobre el codigo principal. 
+
+Gracias a este proyecto, no solo hemos mejorado nuestra habilidad como estudiantes en ingeniería, sino tambien , gracias a las competencias del curso, hemos mejorado como futuros profesionales capaces de poder dirigir equipos multidisiplinarios . 
